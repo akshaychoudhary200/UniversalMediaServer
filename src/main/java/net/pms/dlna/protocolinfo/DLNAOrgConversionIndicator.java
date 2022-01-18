@@ -67,7 +67,7 @@ public final class DLNAOrgConversionIndicator implements ProtocolInfoAttribute {
 	public static final DLNAOrgConversionIndicator NO = FALSE;
 
 	/** The state */
-	protected final boolean state;
+	private final boolean state;
 
 	/**
 	 * For internal use only, use one of the static instances instead.
@@ -79,7 +79,7 @@ public final class DLNAOrgConversionIndicator implements ProtocolInfoAttribute {
 	 *
 	 * @param state the state.
 	 */
-	protected DLNAOrgConversionIndicator(boolean state) {
+	private DLNAOrgConversionIndicator(boolean state) {
 		this.state = state;
 	}
 
